@@ -1,0 +1,12 @@
+<phpunit colors="true"
+         bootstrap="vendor/photon/photon/src/photon/testbootstrap.php"
+>
+    <testsuites>
+        <testsuite name="View Dumper Utils Tests for Photon">
+             <directory>vendor/photon/utils-viewdumper/tests/</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="photon.config" value="vendor/photon/utils-viewdumper/config.test.php"/>
+    </php>
+</phpunit>
